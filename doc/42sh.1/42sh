@@ -1,0 +1,14 @@
+.TH man 1 "03 December 2019" "1.0" "42sh man page"
+.SH NAME
+42sh
+.SH SYNOPSIS
+This software reproduce the behaviour of a bash interpretor.
+.SH SEE ALSO
+42sh can assure the following featurs
+Commands : echo ; cat ; ls.
+Loop : while ; until.
+Conditions : if ; else ; elif.
+.SH DESCRIPTION
+This software was made by epita students. He has an educational ambition
+.SH AUTHOR
+Hicham Sekkat ----- Kentin Ly ----- Mathy Israeli ----- Victor Li

@@ -1,0 +1,54 @@
+- name: "$USER                   "
+  stdin: ../tests/test1.sh
+
+- name: "echo + ls               "
+  stdin: ../tests/test2.sh
+
+- name: "if                      "
+  stdin: ../tests/test3.sh
+
+- name: "more if                 "
+  stdin: ../tests/test_if.sh
+
+- name: "if imbriqués + variables"
+  stdin: ../tests/test4.sh
+
+- name: "pipe                    "
+  stdin: ../tests/test5.sh
+
+- name: "commentaires            "
+  stdin: ../tests/test8.sh
+
+- name: "let                      "
+  stdin: ../tests/test11.sh
+
+- name: "addition                "
+  stdin: ../tests/test12.sh
+
+- name: "division                "
+  stdin: ../tests/test13.sh
+
+- name: "multiplication          "
+  stdin: ../tests/test14.sh
+
+- name: "$#                       "
+  stdin: ../tests/test15.sh
+
+- name: "for                     "
+  stdin: ../tests/test16.sh
+
+- name: "while                    "
+  stdin: ../tests/test17.sh
+
+- name: "for imbriqués            "
+  stdin: ../tests/test19.sh
+
+- name: "if &&                   "
+  stdin: ../tests/test20.sh
+
+- name: "if ||                   "
+  stdin: ../tests/test22.sh
+
+- name: '"foo""foo"              '
+  stdin: ../tests/test23.sh
+
